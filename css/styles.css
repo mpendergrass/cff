@@ -1,0 +1,704 @@
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  *zoom: 1;
+}
+
+
+body {
+	background-color: #fff;
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	color: #333;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+ul {
+	list-style: none;
+}
+
+.visuallyHidden {
+	position: absolute;
+	text-indent: -9999px;
+	height: 0;
+}
+
+.wrapper {
+	margin: 0 auto;
+	padding: 0 5%;
+}
+
+.bold {
+	font-weight: 500;
+}
+
+.semibold {
+	font-weight: 300;
+}
+
+
+h1 {
+	text-align: center;
+	padding: 20px 0;
+}
+.logo {
+	background: url(../assets/logo.png) no-repeat;
+	text-indent: -9999px;
+	display: inline-block;
+	height: 99px;
+	width: 240px;
+}
+
+h2{
+	color: #fff;
+}
+
+h2, h3, h4 {
+	letter-spacing: 1px;
+}
+.overlay h2 {
+	background-color: #27a1f9;
+	font-size: 2em;
+	font-weight: 100;
+	text-align: right;
+	padding: 30px 10%;
+	margin: 0;
+	line-height: 1.3;
+
+}
+
+.button {
+	color: #fff;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: .9em;
+}
+
+.marketingMobile {
+	background: url(../images/homemarket.jpg) no-repeat; 
+	background-position: center;
+	background-size: cover;
+	height: 300px;
+	padding: 0;
+	margin: 0;
+}
+
+.aboutMarket {
+	background: url(../images/handkiss.jpg) no-repeat; 
+	background-position: right;
+	background-size: cover;
+	height: 300px;
+	padding: 0;
+	margin: 0;
+}
+
+.marketingLower {
+	background-color: #27a1f9;
+	position: relative;
+
+}
+.marketingLower p {
+	color: #fff;
+	padding: 30px 10%;
+	text-align: right;
+	font-size: 1.5em;
+	letter-spacing: 1px;
+	margin: 0;
+}
+
+.marketingLower a { 
+	background-color: #1d7fc5;
+	padding: 15px 50px;
+	display: inline-block;
+	float: right;
+	text-align: center;
+	margin-right: 10%;
+	margin-bottom: 30px;
+	border-radius: 3px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	
+}
+
+ul {
+	padding-left: 0;
+	margin: 40px 7%;
+}
+nav .button {
+	background-color: #27a1f9;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	display: block;
+	border-radius: 3px;
+	text-align: center;
+
+}
+
+li {
+	margin-bottom: 8px;
+	padding-left: 0;
+
+}
+
+.aboutIconsWrap {
+	margin: 0 10% 3em 10%;
+	padding-bottom: 3em;
+	border-bottom: 2px solid #e8e8e8;
+}
+
+.iconImg {
+	display: block;
+	height: 168px;
+	margin: 7em 3em 3em 3em; 
+
+
+}
+.born {
+	background: transparent url(../images/percent41.png) no-repeat center;
+	}
+
+.job {
+	background: transparent url(../images/briefcase.png) no-repeat center;
+}
+
+.participate {
+	background: transparent url(../images/percent57.png) no-repeat center;
+}
+
+.better {
+	background: transparent url(../images/manchild.png) no-repeat center;
+}
+
+.aboutIcon p {
+	background-color: #f9615b;
+	color: #fff;
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+	padding:2em 10%;
+}
+
+.pinkIcons a {
+	color: #fff;
+	background-color: #f9615b;
+	padding: 30px;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 8px;
+
+}
+
+.pinkIcons h3 {
+	text-align: center;
+	font-size: 1.5em;
+	letter-spacing: 2px;
+	margin-bottom: 220px;
+	margin-top: 20px;
+}
+
+.pinkIcons p {
+	text-align: center;
+	font-size: 1.2em;
+	line-height: 1.4;
+}
+
+
+
+
+.pinkIcons a {
+	box-sizing: border-box;
+}
+.connected {
+	background:#f9615b url(../images/connect.png) no-repeat center;
+
+}
+
+.call {
+	background:#f9615b url(../images/chat.png) no-repeat center;
+
+}
+
+.lend {
+	background:#f9615b url(../images/lend.png) no-repeat center;
+
+}
+
+.homeLower {
+	margin-top: 40px;
+}
+
+.homeLower h2 {
+	background-color: #27a1f9;
+	font-size: 2em;
+	font-weight: 100;
+	text-align: right;
+	padding: 30px 10%;
+	margin: 0;
+}
+
+.secondaryPic {
+	background: url(../images/homeImage.jpg) no-repeat center;
+	background-position: center;
+	background-size: cover;
+	height: 350px;
+}
+
+
+.homeLower h3 {
+	color: #fff;
+	background-color: #27a1f9;
+	font-size: 1.5em;
+	font-weight: 100;
+	text-align: right;
+	padding: 30px 10%;
+	margin: 0;
+}
+
+.aboutIntro h3 {
+	margin-bottom: 1em;
+}
+
+.aboutIntro p {
+	text-align: center;
+	font-size: 1.1em;
+	font-weight: 300;
+	max-width: 780px;
+	line-height: 1.7;
+}
+
+.aboutSnippet a {
+	background-color: #fff;
+	padding: 10px 50px;
+	display: block;
+	width: 130px;
+	text-align: center;
+	margin: 30px auto 0 auto;
+	border-radius: 3px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #27a1f9;
+	font-weight: 300;
+
+}
+
+.aboutSnippet p {
+	margin-top: 0;
+	color: #fff;
+	padding: 0 10% 30px 10%;
+	text-align: right;
+	line-height: 1.8;
+	font-weight: 300;
+	font-size: 1.1em;
+	background-color: #27a1f9;
+
+}
+.aboutH4 {
+	font-size: 1.5em;
+	color: #27a1f9;
+	text-align: center;
+}
+
+.impact .button {
+	background-color: #27a1f9;
+	padding: 15px 50px;
+	display: block;
+	text-align: center;
+	margin: 3em auto 6em auto;
+	border-radius: 3px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+
+}
+
+.impact p {
+	text-align: left;
+	font-size: 1.1em;
+	font-weight: 300;
+	line-height: 1.7;
+}
+.help .button {
+	background-color: #27a1f9;
+	padding: 15px 50px;
+	display: block;
+	text-align: center;
+	margin: 3em auto 6em auto;
+	border-radius: 3px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+
+}
+
+.help p {
+	text-align: left;
+	font-size: 1.1em;
+	font-weight: 300;
+	line-height: 1.7;
+}
+footer {
+	background-color: #e8e8e8;
+	margin-top: 60px;
+	padding: 20px;
+	padding-top: 50px;
+}
+
+footer h2 {
+	margin: 0;
+}
+
+footer a {
+	font-size: .8em;
+	color: #888;
+}
+
+footer p {
+	font-size: .85em;
+	color: #888;
+
+}
+
+footer ul {
+	margin: 0 auto;
+	margin-bottom: 60px;
+}
+
+.footerCol {
+	width: 30%;
+	float: left;
+	display: block;
+	text-align: center;
+	font-weight: 300;
+}
+
+.center {
+	margin-left: 5%;
+}
+.address {
+	text-align: center;
+	font-size: .8em;
+	font-weight: 300;
+	letter-spacing: 1px;
+	display: block;
+	clear: both;
+	padding-top: 60px;
+	border-top: 1px solid #999;
+}
+
+.copyright {
+	text-align: center;
+	margin-top: 30px;
+	font-size: .8em;
+}
+
+
+
+
+
+
+
+
+
+/* ================= 700px ================= */
+
+
+
+@media screen and (min-width: 700px) {
+
+	
+	header {
+		position: relative;
+	}
+	
+	.logo {
+		margin-right: 20px;
+	}
+
+	h1 {
+		text-align: left;
+		display: inline-block;
+		padding: 0;
+		margin-right: 3%;
+
+	}
+
+	.homeHeader {
+		position: relative;
+	}
+
+	.button:hover {
+		background-color: #50b0f5;
+	}
+	
+	nav ul {
+		position: absolute;
+		top: 68px; right: 3%;
+		max-width: 880px;
+		margin: 0 auto;
+		text-align: right;
+		margin-top: 30px;
+		
+		background-color: #27a1f9;
+	}
+
+	nav li {
+		display: inline-block;
+		margin: 0;
+		font-size: .8em;
+
+	}
+
+	nav a {
+		border: none;
+		padding: .5em 2em;
+
+	}
+
+	nav .button {
+		padding-top: 18px;
+
+
+	}
+
+	nav .button:hover {
+		border-radius: 0;
+	}
+	
+
+	.aboutMarket {
+		border-top: 4px solid #27a1f9;
+	}
+
+	.aboutOverlay p {
+		margin-top: -90px;
+		background-color: none;
+		text-align: left;
+		padding: 18px 5%;
+		width: 75%;
+		display: block;
+
+	}
+	.marketingMobile {
+		height: 0;
+	}
+
+	.marketingDesk {
+		background: url(../images/homemarket.jpg) no-repeat; 
+		background-position: center;
+		background-size: cover;
+		height: 500px;
+		padding: 0;
+		margin: 0;
+		margin-bottom: 15px;
+		position: relative;
+		border-top: 4px solid #27a1f9;
+	}
+	
+	.overlay h2 {
+		background-color: rgba(39, 161, 249, .25);
+	}
+
+	.marketingLower {
+		background-color: rgba(39, 161, 249, .25);
+		margin-bottom: 0;
+	}
+
+	.overlay {
+		position: absolute;
+		top: 0; left: 3%;
+		width: 30%;
+	}
+
+	.marketingLower .button {
+		position: absolute;
+		bottom: 20px; right: 10%;
+		margin: 0;
+		padding: 11px 22px;
+		font-size: .8em;
+
+	}
+
+	.marketingLower p {
+		margin-bottom: 60px;
+	}
+
+
+	.pinkIcons {
+		margin: 0;
+		margin-bottom: 15px;
+
+	}
+
+	.pinkIcons h2 {
+		height: 0;
+		margin: 0;
+	}
+
+	.pinkIcons h3 {
+		font-size: 1.3em;
+	}
+
+	.pinkIcons p {
+		font-size: 1.1em;
+	}
+
+	.pinkIcons a {
+		display: block;
+		height: 350px;
+		width: 32%;
+		padding: 20px 15px;
+		margin: 0;
+		margin-right: 1%;
+		vertical-align: top;
+		float: left;
+
+	}
+
+	.pinkIcons .lend {
+		width: 34%;
+		margin-right: 0;
+	}
+
+	.aboutIcon {
+		display: block;
+		width: 48%;
+		vertical-align: bottom;
+		float: left;
+		margin-right: 2%;
+	}
+
+	.homeLower {
+		margin-top: 0;
+	}
+
+	.homeLower h2 {
+		text-align: center;
+		margin-top: 0;
+		font-size: 1.7em;
+	}
+
+	.secondaryPic {
+		box-sizing: border-box;
+		height: 300px;
+		width: 50%;
+		display: inline-block;
+		float: left;
+		margin-bottom: 4em;
+
+	}
+
+	.aboutSnippet {
+		display: inline-block;
+		width: 44%;
+		padding: 1.5em 3%;
+		position: relative;
+
+	}
+
+	.aboutSnippet h3 {
+		box-sizing: border-box;
+		background-color: transparent;
+		color: #333;
+		display: block;
+		padding: 0;
+		margin-bottom: 1em;
+		text-align: left;
+
+	}
+
+	.aboutSnippet p {
+		box-sizing: border-box;
+		background-color: transparent;
+		color: #333;
+		display: block;
+		text-align: left;
+		padding: 0;
+		margin-bottom: 5em;
+
+	}
+
+	.aboutSnippet .button {
+		background-color: #27a1f9;
+		color: #fff;
+		display: inline-block;
+		position: absolute;
+		bottom: 1em; right: 6%;
+		padding: 11px 20px;
+		font-size: .8em;
+	}
+
+	.impact {
+		width: 40%;
+		display: inline-block;
+		float: left;
+	}
+
+	.help {
+		width: 40%;
+		display: inline-block;
+		float: left;
+	}
+
+	footer {
+		clear: both;
+	}
+}
+
+
+
+
+
+/* ================= 900px ================= */
+
+
+
+@media screen and (min-width: 900px) {
+
+	.aboutIcon {
+		display: block;
+		width: 23%;
+		vertical-align: bottom;
+		float: left;
+		margin-right: 2%;
+	}
+
+	.aboutIcon p {
+		font-size: .7em;
+
+	}
+
+	.iconImg {
+		background-size: 118px;
+		margin: 0;
+	}
+	
+	.aboutIconsWrap {
+		margin-top: 3em;
+	}
+
+
+
+}
+
+
+
+@media screen and (min-width: 1280px) {
+
+	.maxwidthWrapper {
+		max-width: 1280px;
+		margin: 0 auto;
+
+		position: relative;
+	}
+
+}
