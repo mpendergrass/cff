@@ -1,0 +1,325 @@
+// ================================== SITEWIDE PARTIALS
+
+@import "variables";
+@import "clearfix";
+@import "base";
+@import "logo";
+@import "nav";
+
+
+
+// ================================== HOME PAGE PARTIALS
+@import "homeMarketingSection";
+@import "pinkButtons";
+@import "homeLowerSection";
+
+
+
+// ================================== ABOUT PAGE PARTIALS
+@import "aboutMarketing";
+@import "aboutIntro";
+@import "aboutIconSection";
+@import "aboutLowerSection";
+
+
+
+// ================================== FOOTER
+@import "footer";
+
+
+
+
+
+/* ================= 700px ================= */
+
+
+
+@media screen and (min-width: 700px) {
+
+	
+	header {
+		position: relative;
+	}
+	
+	.logo {
+		margin-right: 20px;
+	}
+
+	h1 {
+		text-align: left;
+		display: inline-block;
+		padding: 0;
+		margin-right: 3%;
+
+	}
+
+	.homeHeader {
+		position: relative;
+	}
+
+	.button:hover {
+		background-color: #50b0f5;
+	}
+	
+	nav ul {
+		position: absolute;
+		top: 68px; right: 3%;
+		max-width: 880px;
+		margin: 0 auto;
+		text-align: right;
+		margin-top: 30px;
+		
+		background-color: $blue;
+	}
+
+	nav li {
+		display: inline-block;
+		margin: 0;
+		font-size: .8em;
+
+	}
+
+	nav a {
+		border: none;
+		padding: .5em 2em;
+
+	}
+
+	nav .button {
+		padding-top: 18px;
+
+
+	}
+
+	nav .button:hover {
+		border-radius: 0;
+	}
+	
+
+	.aboutMarket {
+		border-top: 4px solid $blue;
+	}
+
+	.aboutOverlay p {
+		margin-top: -90px;
+		background-color: none;
+		text-align: left;
+		padding: 18px 5%;
+		width: 75%;
+		display: block;
+
+	}
+	.marketingMobile {
+		height: 0;
+	}
+
+	.marketingDesk {
+		background: url(../images/homemarket.jpg) no-repeat; 
+		background-position: center;
+		background-size: cover;
+		height: 500px;
+		padding: 0;
+		margin: 0;
+		margin-bottom: 15px;
+		position: relative;
+		border-top: 4px solid $blue;
+	}
+	
+	.overlay h2 {
+		background-color: rgba(39, 161, 249, .25);
+	}
+
+	.marketingLower {
+		background-color: rgba(39, 161, 249, .25);
+		margin-bottom: 0;
+	}
+
+	.overlay {
+		position: absolute;
+		top: 0; left: 3%;
+		width: 30%;
+	}
+
+	.marketingLower .button {
+		position: absolute;
+		bottom: 20px; right: 10%;
+		margin: 0;
+		padding: 11px 22px;
+		font-size: .8em;
+
+	}
+
+	.marketingLower p {
+		margin-bottom: 60px;
+	}
+
+
+	.pinkIcons {
+		margin: 0;
+		margin-bottom: 15px;
+
+	}
+
+	.pinkIcons h2 {
+		height: 0;
+		margin: 0;
+	}
+
+	.pinkIcons h3 {
+		font-size: 1.3em;
+	}
+
+	.pinkIcons p {
+		font-size: 1.1em;
+	}
+
+	.pinkIcons a {
+		display: block;
+		height: 350px;
+		width: 32%;
+		padding: 20px 15px;
+		margin: 0;
+		margin-right: 1%;
+		vertical-align: top;
+		float: left;
+
+	}
+
+	.pinkIcons .lend {
+		width: 34%;
+		margin-right: 0;
+	}
+
+	.aboutIcon {
+		display: block;
+		width: 48%;
+		vertical-align: bottom;
+		float: left;
+		margin-right: 2%;
+	}
+
+	.homeLower {
+		margin-top: 0;
+	}
+
+	.homeLower h2 {
+		text-align: center;
+		margin-top: 0;
+		font-size: 1.7em;
+	}
+
+	.secondaryPic {
+		box-sizing: border-box;
+		height: 300px;
+		width: 50%;
+		display: inline-block;
+		float: left;
+		margin-bottom: 4em;
+
+	}
+
+	.aboutSnippet {
+		display: inline-block;
+		width: 44%;
+		padding: 1.5em 3%;
+		position: relative;
+
+	}
+
+	.aboutSnippet h3 {
+		box-sizing: border-box;
+		background-color: transparent;
+		color: #333;
+		display: block;
+		padding: 0;
+		margin-bottom: 1em;
+		text-align: left;
+
+	}
+
+	.aboutSnippet p {
+		box-sizing: border-box;
+		background-color: transparent;
+		color: #333;
+		display: block;
+		text-align: left;
+		padding: 0;
+		margin-bottom: 5em;
+
+	}
+
+	.aboutSnippet .button {
+		background-color: $blue;
+		color: #fff;
+		display: inline-block;
+		position: absolute;
+		bottom: 1em; right: 6%;
+		padding: 11px 20px;
+		font-size: .8em;
+	}
+
+	.impact {
+		width: 40%;
+		display: inline-block;
+		float: left;
+	}
+
+	.help {
+		width: 40%;
+		display: inline-block;
+		float: left;
+	}
+
+	footer {
+		clear: both;
+	}
+}
+
+
+
+
+
+/* ================= 900px ================= */
+
+
+
+@media screen and (min-width: 900px) {
+
+	.aboutIcon {
+		display: block;
+		width: 23%;
+		vertical-align: bottom;
+		float: left;
+		margin-right: 2%;
+	}
+
+	.aboutIcon p {
+		font-size: .7em;
+
+	}
+
+	.iconImg {
+		background-size: 118px;
+		margin: 0;
+	}
+	
+	.aboutIconsWrap {
+		margin-top: 3em;
+	}
+
+
+
+}
+
+
+
+@media screen and (min-width: 1280px) {
+
+	.maxwidthWrapper {
+		max-width: 1280px;
+		margin: 0 auto;
+
+		position: relative;
+	}
+
+}

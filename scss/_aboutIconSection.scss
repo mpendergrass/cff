@@ -1,0 +1,38 @@
+
+.aboutIconsWrap {
+	margin: 0 10% 3em 10%;
+	padding-bottom: 3em;
+	border-bottom: 2px solid #e8e8e8;
+}
+
+.iconImg {
+	display: block;
+	height: 168px;
+	margin: 7em 3em 3em 3em; 
+
+
+}
+.born {
+	background: transparent url(../images/percent41.png) no-repeat center;
+	}
+
+.job {
+	background: transparent url(../images/briefcase.png) no-repeat center;
+}
+
+.participate {
+	background: transparent url(../images/percent57.png) no-repeat center;
+}
+
+.better {
+	background: transparent url(../images/manchild.png) no-repeat center;
+}
+
+.aboutIcon p {
+	background-color: $pink;
+	color: #fff;
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+	padding:2em 10%;
+}

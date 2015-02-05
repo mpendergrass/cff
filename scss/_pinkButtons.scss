@@ -1,0 +1,45 @@
+
+.pinkIcons a {
+	color: #fff;
+	background-color: $pink;
+	padding: 30px;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 8px;
+
+}
+
+.pinkIcons h3 {
+	text-align: center;
+	font-size: 1.5em;
+	letter-spacing: 2px;
+	margin-bottom: 220px;
+	margin-top: 20px;
+}
+
+.pinkIcons p {
+	text-align: center;
+	font-size: 1.2em;
+	line-height: 1.4;
+}
+
+
+
+
+.pinkIcons a {
+	box-sizing: border-box;
+}
+.connected {
+	background: $pink url(../images/connect.png) no-repeat center;
+
+}
+
+.call {
+	background: $pink url(../images/chat.png) no-repeat center;
+
+}
+
+.lend {
+	background:$pink url(../images/lend.png) no-repeat center;
+
+}

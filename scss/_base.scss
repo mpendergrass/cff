@@ -1,0 +1,51 @@
+body {
+	background-color: #fff;
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	color: #333;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+ul {
+	list-style: none;
+}
+
+.visuallyHidden {
+	position: absolute;
+	text-indent: -9999px;
+	height: 0;
+}
+
+.wrapper {
+	margin: 0 auto;
+	padding: 0 5%;
+}
+
+.bold {
+	font-weight: 500;
+}
+
+.semibold {
+	font-weight: 300;
+}
+h2{
+	color: #fff;
+}
+
+h2, h3, h4 {
+	letter-spacing: 1px;
+}
+
+.button {
+	color: #fff;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: .9em;
+}

@@ -1,0 +1,30 @@
+.homeLower {
+	margin-top: 40px;
+}
+
+.homeLower h2 {
+	background-color: $blue;
+	font-size: 2em;
+	font-weight: 100;
+	text-align: right;
+	padding: 30px 10%;
+	margin: 0;
+}
+
+.secondaryPic {
+	background: url(../images/homeImage.jpg) no-repeat center;
+	background-position: center;
+	background-size: cover;
+	height: 350px;
+}
+
+
+.homeLower h3 {
+	color: #fff;
+	background-color: $blue;
+	font-size: 1.5em;
+	font-weight: 100;
+	text-align: right;
+	padding: 30px 10%;
+	margin: 0;
+}
