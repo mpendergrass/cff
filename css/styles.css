@@ -8,7 +8,7 @@
 .clearfix {
   *zoom: 1; }
 
-  
+
 
 body {
   background-color: #fff;
@@ -97,8 +97,8 @@ li {
   line-height: 1.3; }
 
 .marketingMobile {
-  background: url(../images/homemarket.jpg) no-repeat;
-  background-position: center;
+  background: url(../images/homemarketcrop.jpg) no-repeat;
+  background-position: right;
   background-size: cover;
   height: 300px;
   padding: 0;
@@ -188,7 +188,7 @@ li {
 
 .aboutMarket {
   background: url(../images/handkiss.jpg) no-repeat;
-  background-position: right;
+  background-position: top;
   background-size: cover;
   height: 300px;
   padding: 0;
@@ -295,6 +295,25 @@ li {
   font-weight: 300;
   line-height: 1.7; }
 
+
+.programDetails .button {
+  background-color: #27a1f9;
+  padding: 15px 50px;
+  display: block;
+  text-align: center;
+  margin: 3em auto 6em auto;
+  border-radius: 3px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.programs p {
+  text-align: left;
+  font-size: 1.1em;
+  font-weight: 300;
+  line-height: 1.7;
+}
+
 footer {
   background-color: #e8e8e8;
   margin-top: 60px;
@@ -340,6 +359,10 @@ footer {
 
 
 
+
+
+/* ================= 580px ================= */
+
 @media screen and (min-width: 580px){
   .footerCol{
     width: 30%;
@@ -349,27 +372,53 @@ footer {
   .center {
     margin-left: 5%;
   }
+
+  .button:hover {
+    background-color: #50b0f5; 
+  }
+
+  .pinkIcons a:hover {
+    opacity: .9;
+  }
+
+  .aboutSnippet .button:hover {
+    color: white;
+  }
+
+  .programDetails .button {
+    background-color: #27a1f9;
+    color: #fff;
+    display: inline-block;
+    bottom: 1em;
+    right: 6%;
+    padding: 11px 20px;
+    font-size: .8em; 
+  }
 }
+
+
 
 /* ================= 780px ================= */
 @media screen and (min-width: 780px) {
   header {
-    position: relative; }
+    position: relative; 
+  }
 
   .logo {
-    margin-right: 20px; }
+    margin-right: 20px; 
+  }
 
   h1 {
     text-align: left;
     display: inline-block;
     padding: 0;
-    margin-right: 3%; }
+    margin-right: 3%; 
+  }
 
   .homeHeader {
-    position: relative; }
+    position: relative; 
+  }
 
-  .button:hover {
-    background-color: #50b0f5; }
 
   nav ul {
     position: absolute;
@@ -379,22 +428,27 @@ footer {
     margin: 0 auto;
     text-align: right;
     margin-top: 30px;
-    background-color: #27a1f9; }
+    background-color: #27a1f9; 
+  }
 
   nav li {
     display: inline-block;
     margin: 0;
-    font-size: .8em; }
+    font-size: .8em; 
+  }
 
   nav a {
     border: none;
-    padding: .5em 2em; }
+    padding: .5em 2em; 
+  }
 
   nav .button {
-    padding-top: 18px; }
+    padding-top: 18px; 
+  }
 
   nav .button:hover {
-    border-radius: 0; }
+    border-radius: 0; 
+  }
 
   .aboutMarket {
     border-top: 4px solid #27a1f9; }
@@ -454,10 +508,12 @@ footer {
     margin: 0; }
 
   .pinkIcons h3 {
-    font-size: 1.3em; }
+    font-size: 1.3em; 
+  }
 
   .pinkIcons p {
-    font-size: 1.1em; }
+    font-size: 1.1em; 
+  }
 
   .pinkIcons a {
     display: block;
@@ -467,26 +523,31 @@ footer {
     margin: 0;
     margin-right: 1%;
     vertical-align: top;
-    float: left; }
+    float: left; 
+  }
 
   .pinkIcons .lend {
     width: 34%;
-    margin-right: 0; }
+    margin-right: 0; 
+  }
 
   .aboutIcon {
     display: block;
     width: 48%;
     vertical-align: bottom;
     float: left;
-    margin-right: 2%; }
+    margin-right: 2%; 
+  }
 
   .homeLower {
-    margin-top: 0; }
+    margin-top: 0; 
+  }
 
   .homeLower h2 {
     text-align: center;
     margin-top: 0;
-    font-size: 1.7em; }
+    font-size: 1.7em; 
+  }
 
   .secondaryPic {
     box-sizing: border-box;
@@ -494,13 +555,15 @@ footer {
     width: 50%;
     display: inline-block;
     float: left;
-    margin-bottom: 4em; }
+    margin-bottom: 4em; 
+  }
 
   .aboutSnippet {
     display: inline-block;
     width: 44%;
     padding: 1.5em 3%;
-    position: relative; }
+    position: relative; 
+  }
 
   .aboutSnippet h3 {
     box-sizing: border-box;
@@ -509,7 +572,8 @@ footer {
     display: block;
     padding: 0;
     margin-bottom: 1em;
-    text-align: left; }
+    text-align: left; 
+  }
 
   .aboutSnippet p {
     box-sizing: border-box;
@@ -518,7 +582,8 @@ footer {
     display: block;
     text-align: left;
     padding: 0;
-    margin-bottom: 5em; }
+    margin-bottom: 5em; 
+  }
 
   .aboutSnippet .button {
     background-color: #27a1f9;
@@ -528,20 +593,28 @@ footer {
     bottom: 1em;
     right: 6%;
     padding: 11px 20px;
-    font-size: .8em; }
+    font-size: .8em; 
+  }
+  
+  .aboutSnippet .button:hover {
+    background-color: #50b0f5; 
+  }
 
   .impact {
     width: 40%;
     display: inline-block;
-    float: left; }
+    float: left; 
+  }
 
   .help {
     width: 40%;
     display: inline-block;
-    float: left; }
+    float: left; 
+  }
 
   footer {
-    clear: both; }
+    clear: both; 
+  }
 
   .footerCol{
     width: 30%;
@@ -563,24 +636,37 @@ footer {
     width: 23%;
     vertical-align: bottom;
     float: left;
-    margin-right: 2%; }
+    margin-right: 2%; 
+  }
 
   .aboutIcon p {
-    font-size: .7em; }
+    font-size: .7em; 
+  }
 
   .iconImg {
     background-size: 118px;
-    margin: 0; }
+    margin: 0; 
+  }
 
   .aboutIconsWrap {
-    margin-top: 3em; } }
+    margin-top: 3em; 
+  } 
+
+}
 
 
-/* ================= 1000px ================= */
+
+
+
+/* ================= 1100px ================= */
+
 @media screen and (min-width: 1100px) {
   .maxwidthWrapper {
     max-width: 1100px;
     margin: 0 auto;
-    position: relative; } }
+    position: relative; 
+  } 
 
-/*# sourceMappingURL=styles.css.map */
+}
+
+
