@@ -52,8 +52,7 @@ h2, h3, h4 {
   font-size: .9em; }
 
 h1 {
-  text-align: center;
-  padding: 20px 0; }
+  text-align: center; }
 
 .logo {
   background: url(../assets/logo.png) no-repeat;
@@ -223,7 +222,8 @@ li {
   text-align: center;
   width: 80%;
   margin: 0 auto;
-  padding: 2em 10%; }
+  padding: 2em 10%;
+  min-height: 3em; }
 
 .aboutSnippet a {
   background-color: #fff;
@@ -290,25 +290,22 @@ footer {
   margin-top: 60px;
   padding: 20px;
   padding-top: 50px; }
+  footer h2 {
+    margin: 0; }
+  footer a {
+    font-size: .8em;
+    color: #888; }
+  footer p {
+    font-size: .85em;
+    color: #888; }
+  footer ul {
+    margin: 0 auto;
+    margin-bottom: 2em; }
 
-footer h2 {
-  margin: 0; }
-
-footer a {
-  font-size: .8em;
-  color: #888; }
-
-footer p {
-  font-size: .85em;
-  color: #888; }
-
-footer ul {
-  margin: 0 auto;
-  margin-bottom: 60px; }
+.colWrap {
+  margin: 0 auto; }
 
 .footerCol {
-  width: 30%;
-  float: left;
   display: block;
   text-align: center;
   font-weight: 300; }
@@ -331,8 +328,21 @@ footer ul {
   margin-top: 30px;
   font-size: .8em; }
 
-/* ================= 700px ================= */
-@media screen and (min-width: 700px) {
+
+
+@media screen and (min-width: 580px){
+  .footerCol{
+    width: 30%;
+    float: left;
+  }  
+
+  .center {
+    margin-left: 5%;
+  }
+}
+
+/* ================= 780px ================= */
+@media screen and (min-width: 780px) {
   header {
     position: relative; }
 
@@ -521,7 +531,21 @@ footer ul {
     float: left; }
 
   footer {
-    clear: both; } }
+    clear: both; }
+
+  .footerCol{
+    width: 30%;
+    float: left;
+  }  
+
+  .center {
+    margin-left: 5%;
+  }
+}
+
+
+
+
 /* ================= 900px ================= */
 @media screen and (min-width: 900px) {
   .aboutIcon {
@@ -540,9 +564,12 @@ footer ul {
 
   .aboutIconsWrap {
     margin-top: 3em; } }
-@media screen and (min-width: 1280px) {
+
+
+/* ================= 1000px ================= */
+@media screen and (min-width: 1100px) {
   .maxwidthWrapper {
-    max-width: 1280px;
+    max-width: 1100px;
     margin: 0 auto;
     position: relative; } }
 
