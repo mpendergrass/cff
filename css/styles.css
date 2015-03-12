@@ -8,38 +8,48 @@
 .clearfix {
   *zoom: 1; }
 
+  
+
 body {
   background-color: #fff;
   padding: 0;
   margin: 0;
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
-  color: #333; }
+  color: #333; 
+}
 
 a {
   text-decoration: none;
-  color: #333; }
+  color: #333; 
+}
 
 ul {
-  list-style: none; }
+  list-style: none; 
+}
 
 .visuallyHidden {
   position: absolute;
   text-indent: -9999px;
-  height: 0; }
+  height: 0; 
+}
 
 .wrapper {
   margin: 0 auto;
-  padding: 0 5%; }
+  padding: 0 5%; 
+}
 
 .bold {
-  font-weight: 500; }
+  font-weight: 500; 
+}
 
 .semibold {
-  font-weight: 300; }
+  font-weight: 300; 
+}
 
 h2 {
-  color: #fff; }
+  color: #fff; 
+}
 
 h2, h3, h4 {
   letter-spacing: 1px; }
