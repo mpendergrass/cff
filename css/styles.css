@@ -416,19 +416,14 @@ footer ul {
     color: white;
   }
 
-  .programDetails .button {
-    background-color: #27a1f9;
-    color: #fff;
-    display: inline-block;
-    padding: 11px 20px;
-    font-size: .8em; 
-    margin: 1em auto 6em auto;
-  }
 
+  
   .programDetails h4{
     text-align: left;
   }
-
+  .programDetails a{
+    width: 140px;
+  }
   footer a:hover {
     color: #27a1f9;
   }
@@ -536,7 +531,7 @@ footer ul {
     font-size: .8em; }
 
   .marketingLower p {
-    margin-bottom: 60px; }
+    margin-bottom: 28px; }
 
   .pinkIcons {
     margin: 0;
@@ -712,11 +707,11 @@ footer ul {
 
 
 
-/* ================= 1100px ================= */
+/* ================= 1050px ================= */
 
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 1050px) {
   .maxwidthWrapper {
-    max-width: 1100px;
+    max-width: 1050px;
     margin: 0 auto;
     position: relative; 
   } 
